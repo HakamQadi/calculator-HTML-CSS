@@ -17,6 +17,7 @@
 }
 
 .header {
+    width: 50%;
     padding-top: 50px;
     padding-bottom: 10px;
     color: white;
@@ -31,7 +32,10 @@
 
 .result {
     font-size: larger;
-    width: 100%;
+    /* width: 100%;
+     */
+    width: 70%;
+
     margin-bottom: 15px;
     text-align: end;
     background-color: #191f32;
@@ -42,6 +46,7 @@
 .calcContainer {
     background-color: #272d42;
     border-radius: 0.2rem;
+    width: 70%;
 
 }
 
@@ -64,6 +69,18 @@
     border-radius: 0.3rem;
     text-align: center;
     background-color: #e9e3dc;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: white;
+    background-color: #647296;
+
+}
+
+.del:hover {
+    background-color: #e9e3dc;
+    color: black;
 }
 
 .del {
@@ -100,4 +117,15 @@
     gap: 020px;
     display: flex;
     justify-content: space-between;
+}
+
+.reset:hover {
+    background-color: #d13f30;
+    cursor: pointer;
+
+}
+
+.equal:hover {
+    background-color: #647296;
+    cursor: pointer;
 }
